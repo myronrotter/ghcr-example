@@ -1,0 +1,20 @@
+{
+  "name": "ghcr-example",
+  "version": "1.0.0",
+  "description": "ghcr and gha example",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myronrotter/ghcr-example.git"
+  },
+  "author": "Myron Rotter <myronrotter01@t-online.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/myronrotter/ghcr-example/issues"
+  },
+  "homepage": "https://github.com/myronrotter/ghcr-example#readme"
+}
