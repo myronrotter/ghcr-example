@@ -5,9 +5,9 @@ LABEL org.opencontainers.image.source https://github.com/myronrotter/ghcr-exampl
 RUN mkdir /app
 WORKDIR /app
 
-COPY ./package*.json .
+COPY ./package*.json ./
 RUN npm i
 
-COPY ./index.js .
+COPY ./index.js ./
 
 CMD npm start
