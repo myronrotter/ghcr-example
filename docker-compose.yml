@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  ghcr-example-image:
+    hostname: ghcr-example-image
+    image: ghcr.io/myronrotter/ghcr-example/ghcr-example-image
+    container_name: ghcr-example-image
+    build: .
